@@ -1,0 +1,31 @@
+No código abaixo:
+
+  public class PrimeiroPrograma {
+    public static void main(String[] args){
+      System.out.println("Primeiro Programa")
+    }
+  }
+
+Podemos dizer que:
+
+- Public -> Quer dizer que pode ser acessado em qualquer lugar do sistema;
+- void -> Quer dizer que não retorna nada;
+- String[] é um parâmetro do tipo vetor de string chamado args;
+- O Vetor, em java, vai ser chamado de array;
+  - Sendo assim, nesse caso, teríamos um array de String;
+
+Na seguinte parte: 
+  System.out.println("Primeiro Programa")
+Podemos tirar algumas observações também:
+
+- System - Em java, é uma classe.
+  - É importante lembrar que classe costuma sempre iniciar com letra maiúscula;
+- out - É um atributo que representa saída;
+- println - Seria printar a line, ou seja, a linha.
+
+Nesse contexto, é importante dizer que:
+- Só é possível compilar e executar essa classe por causa do main da forma que está escrito.
+
+E como fazemos para rodar esse programa caso o código fosse feito no bloco de notas e quiséssemos rodar no terminal?
+- Bastar colocar: "[Caminho do seu computador]\jdk-17.0.6.10-hotspot\bin\java.exe" PrimeiroPrograma.java
+ 
